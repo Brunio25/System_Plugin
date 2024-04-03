@@ -1,0 +1,33 @@
+{
+  "required_api_version": "2",
+  "name": "System",
+  "description": "Suspend, Hibernate, Reboot, Shutdown, etc. your system",
+  "developer_name": "Brunio25",
+  "icon": "images/shutdown.png",
+  "options": {
+    "query_debounce": 0.00
+  },
+  "preferences": [
+    {
+      "id": "shutdown",
+      "type": "keyword",
+      "name": "Shutdown",
+      "description": "Shutdown the computer",
+      "default_value": "shutdown"
+    },
+    {
+      "id": "sleep",
+      "type": "keyword",
+      "name": "Sleep",
+      "description": "Suspend the computer",
+      "default_value": "sleep"
+    },
+    {
+      "id": "reboot",
+      "type": "keyword",
+      "name": "Reboot",
+      "description": "Restart the computer",
+      "default_value": "reboot"
+    }
+  ]
+}
